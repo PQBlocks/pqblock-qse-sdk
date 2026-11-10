@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pqblocks-qse-sdk"
+version = "0.1.0"
+description = "Post-quantum cryptography SDK for ML-KEM, ML-DSA, and SLH-DSA (FIPS 203/204/205)"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.11"
+authors = [{name = "The PQBlocks Authors"}]
+keywords = ["post-quantum", "pqc", "security", "cryptography", "nist", "fips", "sdk"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security :: Cryptography",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = ["pqcrypto"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/PQBlocks/pqblock-qse-sdk"
+Documentation = "https://github.com/PQBlocks/pqblock-qse-sdk#readme"
+Source = "https://github.com/PQBlocks/pqblock-qse-sdk"
+Changelog = "https://github.com/PQBlocks/pqblock-qse-sdk/blob/main/CHANGELOG.md"
+Issues = "https://github.com/PQBlocks/pqblock-qse-sdk/issues"
+Security = "https://github.com/PQBlocks/pqblock-qse-sdk/security/policy"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "*.txt", "*.csv", "*.yaml", "*.yml", "*.toml", "py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
