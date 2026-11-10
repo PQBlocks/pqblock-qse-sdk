@@ -18,7 +18,7 @@ def test_readme_has_required_sections():
         import pytest
         pytest.skip("README.md not present in cleanroom wheel test environment")
     content = readme.read_text()
-    assert "# pqblock-pqblocks_qse_sdk-sdk" in content or "pqblock-pqblocks_qse_sdk-sdk" in content
+    assert "# pqblocks-qse-sdk" in content or "pqblock-qse-sdk" in content or "pqblocks_qse_sdk" in content
     assert "FIPS 203" in content or "ML-KEM" in content
     assert "FIPS 204" in content or "ML-DSA" in content
     assert "FIPS 205" in content or "SLH-DSA" in content
