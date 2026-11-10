@@ -100,3 +100,8 @@ try:  # pragma: no cover - exercised implicitly by every SDK use
 except ImportError:  # pragma: no cover - normal state during S3 development
     sign = _lazy_not_implemented("sign")
     verify = _lazy_not_implemented("verify")
+
+try:  # pragma: no cover
+    from pqblocks_qse_sdk.__main__ import main  # type: ignore[attr-defined]
+except ImportError:
+    main = _lazy_not_implemented("main")
