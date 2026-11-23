@@ -91,7 +91,7 @@ We take the security of `pqblocks-qse-sdk` seriously. If you identify a potentia
    [https://github.com/PQBlocks/pqblock-qse-sdk/security/advisories/new](https://github.com/PQBlocks/pqblock-qse-sdk/security/advisories/new)
 2. **Confidential Issue / Contact Maintainers:**  
    Open an issue on GitHub requesting a private security coordination channel, or contact the author / repository maintainer directly:  
-   **Govind Dubey** (`govinddubeycse@gmail.com`).
+   **Govind Dubey** (`govinddubeycse+pqblocks@gmail.com`).
 
 *Please do NOT file public issues or post details publicly on social media or forums before a fix has been validated and coordinated.*
 

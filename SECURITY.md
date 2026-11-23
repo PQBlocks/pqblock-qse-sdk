@@ -26,7 +26,7 @@ If you cannot use GitHub Security Advisories, you can:
 - Open a GitHub issue requesting a private security coordination channel:  
   **[https://github.com/PQBlocks/pqblock-qse-sdk/issues](https://github.com/PQBlocks/pqblock-qse-sdk/issues)**
 - Contact the author directly:  
-  **Govind Dubey** (`govinddubeycse@gmail.com`)
+  **Govind Dubey** (`govinddubeycse+pqblocks@gmail.com`)
 
 *Important: Please do NOT open public issue threads containing reproducible exploit payloads, proof-of-concept exploits, or vulnerable key material.*
 
